@@ -14,7 +14,7 @@ namespace Morze
             string final_morz = "";
             foreach(char let in phrase)
             {
-                final_morz += Transformation.encr_morze[let.ToString()];
+                final_morz += Transformation.encr_morze[let];
             }
             Console.WriteLine(final_morz);
             final_morz = final_morz.Trim();
