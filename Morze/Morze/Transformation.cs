@@ -32,7 +32,7 @@ namespace Morze
                 { "x", "- . . -   " },
                 { "y", "- . - -   " },
                 { "z", "- - . .   " },
-                { " ","      " }
+                { " ","    " }
             };
         public static Dictionary<char, string> time_units = new Dictionary<char, string>
         {
